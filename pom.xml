@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <groupId>io.micronaut.platform</groupId>
+    <artifactId>micronaut-parent</artifactId>
+    <version>4.3.1</version>
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sample</groupId>
+  <artifactId>micronaut-gcp-dependency-issue-parent</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>micronaut-gcp-dependency-issue-secret</module>
+    <module>micronaut-gcp-dependency-issue-app</module>
+  </modules>
+ 
+</project>
